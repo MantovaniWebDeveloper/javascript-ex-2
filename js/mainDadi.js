@@ -1,6 +1,6 @@
 //chiedo i nominativi dei concorrenti
-var nomeUtente1 = prompt("Inserisca il suo nome giocatore 1")
-var nomeUtente2 = prompt("Inserisca il suo nome giocatore 2")
+//var nomeUtente1 = prompt("Inserisca il suo nome giocatore 1")
+//var nomeUtente2 = prompt("Inserisca il suo nome giocatore 2")
 //controllo i valori dei nomi
 console.log("I giocatori sono: " + nomeUtente1 + ", " + nomeUtente2);
 //gestisco il primo concorrente che lancia il dado
