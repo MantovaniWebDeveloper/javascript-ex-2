@@ -4,13 +4,12 @@
   box-sizing: border-box;
 }
 body {
-  background-color: black;
+  background:linear-gradient(135deg, #ff3232 0%,#e89c40 100%);
 }
 .container {
   margin: 0 auto;
   width: 70%;
   height: 100vh;
-  background-color: yellow;
 }
 .wrapGiocatori {
   display: flex;
@@ -30,4 +29,9 @@ body {
 }
 .giocatore h1 {
   font-size: 70px;
+}
+.giocatore h3 {
+  color: #fff;;
+  margin-top: 20px;
+
 }
