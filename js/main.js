@@ -24,8 +24,9 @@ for(var i=0; i < listaEmail.length; i++) {
 //se la variabile è settata true allora il login è effettuato se no
 //messaggio di errore
 if (login == true) {
-  document.writeln("Login effettuato")
+  document.getElementById('valoreLogin').innerHTML = "login effetuato"
+
 }
 else {
-  document.writeln("Login non effettuato")
+  document.getElementById('valoreLogin').innerHTML = "Mi spiace, login non effettuato"
 }

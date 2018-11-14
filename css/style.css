@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vW;
+  height: 100vh;
+  background-color: orange;
+}
+#boxLogin {
+  padding: 20px;
+  border: 2px solid black;
+}
+#boxLogin h2 {
+  font-size: 40px;
+  text-transform: uppercase;
+  border: 1px solid balck;
+}
