@@ -10,3 +10,11 @@ var lancioConcorrente2 = Math.floor(Math.random()*7);
 
 //controllo il risultato
 console.log(lancioConcorrente2);
+
+//effettuo il confronto dei valori dei due lanci random
+if (lancioConcorrente1 > lancioConcorrente2) {
+  console.log("Concorrente 1 hai vinto");
+}
+else {
+  console.log("Concorrente 2 hai vinto");
+}
