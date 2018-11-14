@@ -12,3 +12,22 @@ body {
   height: 100vh;
   background-color: yellow;
 }
+.wrapGiocatori {
+  display: flex;
+}
+.giocatore {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+.giocatore h2 {
+  margin-bottom: 20px;
+  font-size: 50px;
+  text-transform: capitalize;
+}
+.giocatore h1 {
+  font-size: 70px;
+}
