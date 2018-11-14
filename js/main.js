@@ -12,15 +12,15 @@ console.log('Valore email utente: ' + emailUtente);
 for(var i=0; i < listaEmail.length; i++) {
   //eseguo il controllo se l'email esiste
   if (listaEmail[i].indexOf(emailUtente) != -1) {
-    console.log("email combacia");
+    console.log(listaEmail[i]);
+    console.log("email utente " + emailUtente +" email array " + listaEmail[i]);
     //se l'email esiste login effettuato in caso negativo
     document.writeln("Login effettuato")
   }
   else {
     console.log("email non combacia");
+    console.log("email utente " + emailUtente +" email array " + listaEmail[i]);
     document.writeln("Login non effettuato")
-    break;
-
   }
 }
 
